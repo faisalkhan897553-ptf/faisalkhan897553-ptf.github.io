@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Spice Route | Restaurant, Hadapsar</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@400;600&display=swap">
+<style>
+:root{--bg:#120d0a;--card:#1d1511;--text:#f4e9dc;--muted:#b09d8a;--a:#e0a458;--line:#33261d}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{text-decoration:none}
+body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.55}
+.hero{min-height:78vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:40px 24px;background:radial-gradient(ellipse at 50% 20%,rgba(224,164,88,.28),transparent 60%),linear-gradient(#1a110c,#120d0a)}
+.hero small{letter-spacing:.3em;text-transform:uppercase;color:var(--a);font-size:.72rem}
+.hero h1{font-family:"Cormorant Garamond",Georgia,serif;font-size:3.4rem;margin:12px 0 4px;line-height:1}
+.hero p{color:var(--muted);max-width:380px;margin:8px 0 26px}
+.btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.btn{padding:13px 24px;border-radius:4px;font-weight:600;background:var(--a);color:#1a110c}.btn.o{background:none;color:var(--a);border:1px solid var(--a)}
+.sec{max-width:680px;margin:0 auto;padding:40px 22px}
+h2{font-family:"Cormorant Garamond",Georgia,serif;font-size:2rem;text-align:center;margin:0 0 18px}
+.tabs{display:flex;justify-content:center;gap:8px;margin-bottom:18px}
+.tabs button{font:inherit;background:none;border:1px solid var(--line);color:var(--muted);padding:8px 16px;border-radius:99px;cursor:pointer}
+.tabs button.on{background:var(--a);color:#1a110c;border-color:var(--a);font-weight:600}
+.m{display:none}.m.on{display:block}
+.d{display:flex;justify-content:space-between;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.d h3{margin:0;font-size:1rem;font-weight:600}.d p{margin:2px 0 0;color:var(--muted);font-size:.85rem}.d span{color:var(--a);font-weight:600}
+.v,.n{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:8px;border:1.5px solid}.v{border-color:#4ade80;background:#4ade80}.n{border-color:#f87171;background:#f87171}
+.ex{display:grid;gap:12px}@media(min-width:600px){.ex{grid-template-columns:repeat(3,1fr)}}
+.ex div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;text-align:center}.ex i{font-style:normal;font-size:1.6rem;display:block}.ex b{display:block;margin:4px 0}.ex p{margin:0;color:var(--muted);font-size:.85rem}
+.t{width:100%;border-collapse:collapse}.t td{padding:10px 0;border-bottom:1px solid var(--line)}.t td:last-child{text-align:right;color:var(--a)}
+.c{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 18px}.c p{color:var(--muted);margin:6px 0}
+footer{text-align:center;padding:26px;color:var(--muted);font-size:.78rem}
+</style></head><body>
+<section class="hero"><small>Hadapsar, Pune · Since 2015</small><h1>Spice Route</h1><p>Slow-cooked curries, dum biryani and tandoor classics. Made fresh, served warm.</p>
+<div class="btns"><a class="btn" href="https://wa.me/918975537543?text=Hi%2C%20I%20want%20to%20book%20a%20table">Book a Table</a><a class="btn o" href="tel:+918975537543">Call to Order</a></div></section>
+<section class="sec"><h2>Our Menu</h2>
+<div class="tabs"><button class="on" data-t="s">Starters</button><button data-t="m">Mains</button><button data-t="d">Desserts</button></div>
+<div class="m on" id="s"><div class="d"><div><h3><i class="n"></i>Chicken Tikka</h3><p>Char-grilled, mint chutney</p></div><span>Rs 260</span></div><div class="d"><div><h3><i class="v"></i>Paneer Tikka</h3><p>Smoky tandoor, bell peppers</p></div><span>Rs 240</span></div><div class="d"><div><h3><i class="v"></i>Crispy Corn</h3><p>Tossed with spices</p></div><span>Rs 160</span></div></div>
+<div class="m" id="m"><div class="d"><div><h3><i class="n"></i>Chicken Dum Biryani</h3><p>Basmati, saffron, with raita</p></div><span>Rs 280</span></div><div class="d"><div><h3><i class="n"></i>Butter Chicken</h3><p>Creamy tomato gravy</p></div><span>Rs 320</span></div><div class="d"><div><h3><i class="v"></i>Paneer Butter Masala</h3><p>Rich and creamy</p></div><span>Rs 260</span></div><div class="d"><div><h3><i class="v"></i>Dal Tadka</h3><p>Yellow dal, ghee tadka</p></div><span>Rs 180</span></div></div>
+<div class="m" id="d"><div class="d"><div><h3><i class="v"></i>Gulab Jamun</h3><p>Two pieces, served hot</p></div><span>Rs 70</span></div><div class="d"><div><h3><i class="v"></i>Phirni</h3><p>Chilled rice pudding</p></div><span>Rs 90</span></div></div></section>
+<section class="sec"><h2>Why Spice Route</h2><div class="ex"><div><i>🔥</i><b>Live Tandoor</b><p>Fresh from the clay oven</p></div><div><i>👨‍👩‍👧</i><b>Family Seating</b><p>AC hall for 60 guests</p></div><div><i>🛵</i><b>Home Delivery</b><p>Within 5 km of Hadapsar</p></div></div></section>
+<section class="sec"><h2>Hours</h2><table class="t"><tr><td>Mon to Fri</td><td>11 AM to 11 PM</td></tr><tr><td>Sat and Sun</td><td>11 AM to 12 midnight</td></tr></table></section>
+<section class="sec"><div class="c"><h2>Reserve Your Table</h2><p>Solapur Road, Hadapsar, Pune 411028</p><p>89755 37543</p><div class="btns" style="margin-top:14px"><a class="btn" href="https://wa.me/918975537543?text=Hi%2C%20I%20want%20to%20book%20a%20table">WhatsApp</a></div></div></section>
+<footer>© Spice Route (demo). Website by Faisal Khan, Pune</footer>
+<script>document.querySelectorAll(".tabs button").forEach(function(b){b.onclick=function(){document.querySelectorAll(".tabs button,.m").forEach(function(e){e.classList.remove("on")});b.classList.add("on");document.getElementById(b.dataset.t).classList.add("on")}})</script>
+</body></html>
